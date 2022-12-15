@@ -1,0 +1,53 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 20px;
+    /* background-color: aquamarine; */
+}
+
+
+
+.left img {
+    width: 300px;
+}
+
+.left {
+    width: 400px;
+    margin-left: auto;
+}
+
+.right {
+    width: 400px;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.right button {
+    border: 2px solid rgb(38, 121, 38);
+    color: rgb(38, 121, 38);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.link {
+    color: rgb(20, 122, 20);
+    text-decoration: none;
+}
+
+.right button:hover {
+    border: 2px solid rgb(38, 121, 38);
+    color: rgb(38, 121, 38);
+    border-radius: 4px;
+    padding: 4px;
+    background-color: rgb(88, 138, 88) ;
+}
+
+.link:hover {
+    color: black;
+    background-color: rgb(88, 138, 88);
+}
+
+.right h3 {
+    color:rgb(88, 138, 88) ;
+}
