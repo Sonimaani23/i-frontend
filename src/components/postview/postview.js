@@ -10,7 +10,7 @@ export default function Postview() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/post" , {method:"GET"})
+    fetch("https://instacloneapi-9oy2.onrender.com" , {method:"GET"})
       .then((res) => res.json())
       .then((data) => {
         setPosts(data);
