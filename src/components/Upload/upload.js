@@ -18,12 +18,12 @@ const Upload = () => {
     const handleSubmit = async () => {
         const newPost = new FormData();
         newPost.append("file", image);
-        newPost.append("upload_preset", "Your upload preset");
+        newPost.append("upload_preset", "p8uout4k");
         newPost.append("name", name);
         newPost.append("location", location);
         newPost.append("description", description);
 
-        await Axios.post("Enter Your Cloudinary Api link", newPost)
+        await Axios.post("https://api.cloudinary.com/v1_1/dppdz9cu9/image/upload", newPost)
         .then(res=>{
             console.log(res);
             console.log(res.data.secure_url);
@@ -35,7 +35,7 @@ const Upload = () => {
 
         
 
-        await Axios("Enter Your NodeJS Api link", {
+        await Axios("https://instaclone-new.onrender.com", {
             method : "post",
             headers: {
                 "Content-Type":"application/json"
