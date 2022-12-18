@@ -35,7 +35,7 @@ const Upload = () => {
 
         
 
-        await Axios("https://instaclone-new.onrender.com", {
+        await Axios("https://new-3fn6.onrender.com/upload", {
             method : "post",
             headers: {
                 "Content-Type":"application/json"
